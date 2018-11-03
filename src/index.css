@@ -58,6 +58,88 @@ body {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  font-size: x-large;
+}
+
+.labels{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-weight: 600;
+}
+
+.controls-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#break-container {
+  width: 50%;
+  height: 100px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#session-container {
+  width: 50%;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#break-length, #session-length {
+  min-width: 26px;
+  text-align: center;
+}
+
+#break-decrement, #session-decrement {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+#break-increment, #session-increment {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+#timer-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#time-left {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#start_stop {
+  width: 100px;
+  height: 40px;
+  margin-right: 20px;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+#reset {
+  width: 100px;
+  height: 40px;
+  font-size: x-large;
+  font-weight: 600;
 }
 
 @media (max-width: 767px) {

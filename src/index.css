@@ -52,13 +52,13 @@ body {
   flex-wrap: wrap;
   width: 80%;
   margin: auto;
+  font-size: x-large;
 }
 
 #app-wrapper {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  font-size: x-large;
 }
 
 .labels{
@@ -144,7 +144,8 @@ body {
 
 @media (max-width: 767px) {
   #root {
-    width: 95%;
+    width: 98%;
+    font-size: larger;
   }
 }
 
